@@ -1,0 +1,7 @@
+PyYAML==6.0
+llama-cpp-python==0.1.48
+pillow==9.5.0
+requests==2.30.0
+better-profanity==0.7.0
+hikari==2.0.0.dev120
+hikari-lightbulb==2.3.3

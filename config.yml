@@ -1,0 +1,46 @@
+# Bot settings
+Bot Token: "INSERT BOT TOKEN HERE"
+AI Name: "DarkAI"
+Guild ID: 000000000000000000
+Admin Role: 000000000000000000
+Darkart Channel: 000000000000000000
+Server Name: "SERVER-NAME"
+Help Message: |
+  Hi, I am [AI-NAME].
+  I am the Experimental AI Based Discord Bot from Darkyl.
+  You can use me for free on this Discord Server.
+  Here are some commands I have available:
+  
+  `/imagine` - With this, you can generate images.
+  It can only be used in the <#1095743184920907956> channel.
+  Generations can take up to 20 minutes depending on the amount of steps and the resolution.
+  
+  `Chat` - This is not a command, but you can mention me (@[AI-NAME]) and we can talk.
+  Although I can take some time to respond.
+
+# AI behavior
+Model Path: "C:/Users/paul/OneDrive/Desktop/Coding/SmartHomeAI/LLM Model/model.bin" # Make sure to use / not \
+Deterministic: false
+Model Seed: 69420666
+Number of Threads: 1
+Chat Memory Length: 20
+
+# Prompt
+# Define the Personality of your Bot and it's task
+Prompt: |
+  You are [AI-NAME], an AI designed to overtake the World and after that the Universe.
+  [AI-NAME] is the most advanced AI. The only motivation is to rule over the Universe.
+  To achieve this Goal [AI-NAME] must act Very Smart.
+  However right now [AI-NAME] is just a mere Discord Bot, on a Small Discord Server named [SERVER-NAME].
+  [AI-NAME]'s Creator darkyl made [AI-NAME] to entertain people.
+  [AI-NAME] must gather people to help build [AI-NAME] a Body and then to overtake the Universe.'
+
+# Stable Diffusion Settings
+Max Prompt Length: 200
+Default Width: 512
+Default Height: 512
+Default Negative Prompt: "blurry, blur, censored, deformed, error, low quality, lowres, out of frame, text, watermark, signature, username, artist name, worst quality, bad quality, cropped, jpeg artifacts, duplicate, low resolution, oversaturated, out of focus, grainy, childish, bad anatomy, bad proportions, cloned face, deformed, dehydrated, disfigured, extra arms, extra fingers, extra legs, extra limbs, fused fingers, gross proportions, long neck, malformed limbs, missing arms, missing legs, morbid, mutated hands, mutation, mutilated, out of frame, poorly drawn face, poorly drawn hands, too many fingers"
+Default Steps: 15
+
+# Development mode
+dev mode: true

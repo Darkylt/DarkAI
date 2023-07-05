@@ -19,7 +19,7 @@ Help Message: |
   Although I can take some time to respond.
 
 # AI behavior
-Model Path: "C:/Users/paul/OneDrive/Desktop/Coding/SmartHomeAI/LLM Model/model.bin" # Make sure to use / not \
+Model Path: "Model/model.bin" # Make sure to use / not \
 Deterministic: false
 Model Seed: 69420666
 Number of Threads: 1
